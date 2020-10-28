@@ -2,5 +2,5 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/ixd1734/public_html/deployment-test
- - mkdir $DEPLOYPATH
+ - mkdir -p $DEPLOYPATH
  - cp -R * $DEPLOYPATH
